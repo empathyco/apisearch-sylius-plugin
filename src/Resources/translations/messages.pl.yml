@@ -1,0 +1,20 @@
+apisearch:
+  ui:
+    filters: Filtry
+    filter: Filtruj
+    sorting:
+      title: Sortowanie
+      position:
+        asc: Pozycja rosnąco
+        desc: Pozycja malejąco
+      price:
+        asc: Cena rosnąco
+        desc: Cena malejąco
+    size:
+        title: Rozmiar
+    remove_selected: Usuń filtry
+    fields:
+      price: Cena
+      query: Szukana fraza
+      min_price: Cena minimalna
+      max_price: Cena maksymalna

@@ -1,0 +1,9 @@
+services:
+
+  sylius_apisearch.controller.taxon:
+      class: Apisearch\SyliusApisearchPlugin\Controller\TaxonController
+      public: true
+      arguments:
+        - "@templating"
+        - "@sylius_apisearch.search.view.search_view_context"
+        - "@sylius_apisearch.context.taxon"

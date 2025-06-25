@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: Apisearch\SyliusApisearchPlugin
+        psr4_prefix: Apisearch\SyliusApisearchPlugin

@@ -1,0 +1,13 @@
+services:
+  sylius_apisearch.configuration:
+    class: Apisearch\SyliusApisearchPlugin\Configuration\ApisearchConfiguration
+    arguments:
+    - "%sylius_apisearch.config.version%"
+    - "%sylius_apisearch.config.show_price_filter%"
+    - "%sylius_apisearch.config.show_text_search%"
+    - "%sylius_apisearch.config.enable_autocomplete%"
+    - "%sylius_apisearch.config.filters%"
+    - "%sylius_apisearch.config.pagination_size%"
+    - "%sylius_apisearch.config.token%"
+    - "%sylius_apisearch.config.endpoint%"
+    - "%sylius_apisearch.config.app_id%"
